@@ -13,10 +13,10 @@
 
 <body>
     <!-- container becomes container-fluid/100% width below sm breakpoint -->
-    <div class="container-sm bg-primary">
+    <div class="container-sm border border-danger">
         <!-- align-items-center will vertically center all the columns within the row -->
         <!-- only row is a flex container by default -->
-        <div class="row align-items-center">
+        <div class="row align-items-center border-bottom border-danger" style="background-color: #3fc1c0;">
             <!-- col will become vertical at the sm breakpiont -->
             <div class="col-sm">
                 <h1 class="display-5 ">Note Taker</h1>
@@ -29,18 +29,21 @@
                 </button>
             </div>
         </div>
+        <!-- Main Content -->
         <div class="row">
-            <div class="col-sm-4 bg-secondary">
-                <div class="row flex-column">
-                    <div class="col-1">1</div>
-                    <div class="col-1">2</div>
-                    <div class="col-1">3</div>
-                    <div class="col-1">4</div>
-                    <div class="col-1">5</div>
-                    <div class="col-1">6</div>
+            <!-- Nav Bar -->
+            <div class="col-sm-4 border-right border-danger">
+                <div class="row flex-column border-right border-danger">
+                    <div class="col-12 border-bottom border-danger">1</div>
+                    <div class="col-12 border-bottom border-danger">2</div>
+                    <div class="col-12 border-bottom border-danger">3</div>
+                    <div class="col-12 border-bottom border-danger">4</div>
+                    <div class="col-12 border-bottom border-danger">5</div>
+                    <div class="col-12 ">6</div>
                 </div>
             </div>
-            <div class="col-sm-8 bg-warning">2</div>
+            <!-- Current Note -->
+            <div class="col-sm-8 border-start border-danger">2</div>
         </div>
     </div>
 </body>
