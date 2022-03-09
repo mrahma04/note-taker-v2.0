@@ -13,10 +13,10 @@
 
 <body>
     <!-- container becomes container-fluid/100% width below sm breakpoint -->
-    <div class="container-sm border border-danger">
+    <div class="container-sm border-top border-start border-danger">
         <!-- align-items-center will vertically center all the columns within the row -->
         <!-- only row is a flex container by default -->
-        <div class="row align-items-center border-bottom border-danger" style="background-color: #3fc1c0;">
+        <div class="row align-items-center border-bottom border-end border-danger" style="background-color: #3fc1c0;">
             <!-- col will become vertical at the sm breakpiont -->
             <div class="col-sm">
                 <h1 class="display-5 ">Note Taker</h1>
@@ -33,17 +33,18 @@
         <div class="row">
             <!-- Nav Bar -->
             <div class="col-sm-4 border-right border-danger">
-                <div class="row flex-column border-right border-danger">
-                    <div class="col-12 border-bottom border-danger">1</div>
-                    <div class="col-12 border-bottom border-danger">2</div>
-                    <div class="col-12 border-bottom border-danger">3</div>
-                    <div class="col-12 border-bottom border-danger">4</div>
-                    <div class="col-12 border-bottom border-danger">5</div>
-                    <div class="col-12 ">6</div>
+                <div class="row flex-column border-right border-end border-danger">
+                    <div class="col-12 border-bottom border-danger">Call Bank on Friday</div>
+                    <div class="col-12 border-bottom border-danger">Reschedule delivery</div>
+                    <div class="col-12 border-bottom border-danger">Finish payroll</div>
+                    <div class="col-12 border-bottom border-danger">Check in with clients</div>
+                    <div class="col-12 border-bottom border-danger">Client lunch on Thursday</div>
+                    <div class="col-12 border-bottom border-danger ">Finish challenge #11</div>
                 </div>
             </div>
             <!-- Current Note -->
-            <div class="col-sm-8 border-start border-danger">2</div>
+            <!-- <div class="col-sm-8 border-start border-danger">2</div> -->
+            <div class="col-sm-8 border-bottom border-end border-danger">2</div>
         </div>
     </div>
 </body>
