@@ -1,6 +1,6 @@
-### note-taker-v2.0
+## note-taker-v2.0
 
-## User Story
+### User Story
 
 ```
 AS A small business owner
